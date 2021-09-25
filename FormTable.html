@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>FormTable</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Employee Details</legend>
+        <table>
+        <tr>
+            <td>Enter Username:</td>
+            <td><input type="text"></td>
+        </tr>
+        
+        <tr>
+            <td>Enter Password:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Enter DOB:</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Enter joining month:</td>
+            <td><input type="month"></td>
+        </tr>
+        <tr>
+            <td>Heighest Qualification:</td>
+                <td><input type="checkbox">10<sup>th</sup>
+                <input type="checkbox">12<sup>th</sup>
+                <input type="checkbox">UG
+                <input type="checkbox">PG
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="same">Male
+                <input type="radio" name="same">Female
+                <input type="radio" name="same">Trasgender
+            </td>
+        </tr>
+        <tr>
+            <td>Enter emailID:</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Enter Mobile number:</td>
+            <td><input type="number"></td>
+        </tr>
+        
+        <tr>
+            <td>Select Your state</td>
+            <td><select>
+                <option>Select your state</option>
+            <option>Karnataka</option>
+            <option>kolkatta</option>
+            <option>Andhrapradesh</option>
+            <option>Dehli</option>
+            </select>
+            </td>
+
+        </tr>
+       
+
+        <tr>
+        <td>Enter your State:</td>
+        <td><input list="state"></td>
+        <td>
+            <datalist id="state">
+                <option>select your state</option>
+                <option>Karnataka</option>
+                <option>Andrapradesh</option>
+                <option>Dehli</option>
+                <option>Tamilnadu</option>
+                <option>Kolkatta</option>
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <td>Enter your adress</td>
+        <td><textarea cols="25" rows="5"></textarea></td>
+    </tr>
+    <tr><td><input type="submit" name="submit"></td>
+        <td><input type="reset" name="reset"></td>
+    </tr>
+    </table>
+</form>
+
+    </fieldset>
+
+</body>
+</html>

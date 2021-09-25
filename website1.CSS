@@ -1,0 +1,31 @@
+.span1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.image1{
+    margin-left: 500px;
+}
+.link
+{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 120px;
+    text-decoration: none;
+}
+.link:hover{
+    
+    color: yellow;
+    background-color: red;
+}
+.content{
+    width:500px;
+    margin-left: 450px;
+    margin-top: -300px;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: justify;
+    padding: 20px;
+}
+.heading{
+    margin-left: 500px;
+}
